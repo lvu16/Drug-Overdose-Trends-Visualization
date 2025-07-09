@@ -1,4 +1,4 @@
-Drug Overdose Trends Visualization
+DRUG OVERDOSE TRENDS VISUALIZATION
 This interactive data visualization project presents U.S. drug overdose death rates by sex, race, age, and drug type from 1999 onward. Built using D3.js, the goal is to make CDC data more accessible and actionable for public health officials, policy makers, nonprofits, and educators.
 
 Data: Drug overdose death rates, by drug type, sex, age, race, and Hispanic origin: United States

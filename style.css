@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #333;
+}
+
+#main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid hsl(38, 52%, 30%) ;
+    padding: 20px;
+    box-shadow: 0 0 10px hsla(0, 31%, 51%, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    background-color: #745725;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 20px -20px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* #chart {
+min-width: 960px;
+} */

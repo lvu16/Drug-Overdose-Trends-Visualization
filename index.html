@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Overdose</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1>Drug Overdose Trends By Sex, Race, Age and Drug Type</h1>
+            <div class="choosingChart">
+                <label for="chartType">Select Chart Type: </label>
+                <select id="chartType">
+                    <option selected value="barAll">All Dug Overdose Deaths</option>
+                    <option value="lineAge">All Dug Overdose Deaths By Age</option>
+                    <option value="groupBar">Overdose Deaths By Drug Type</option>
+                </select>
+            </div>
+            <div id="optionforBarChart"></div>
+        </header>
+        
+        <div id="chart"></div>
+
+    </div>
+    
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="./main.js"></script>
+
+</html>
